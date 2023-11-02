@@ -1,0 +1,26 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.about-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-wrapper-first-col{
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.245);
+    width: 800px;
+    text-align: center;
+}
+
+p{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}

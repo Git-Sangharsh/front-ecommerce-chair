@@ -1,0 +1,24 @@
+.upload{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map-outer-div{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.main-map-chairs > img{
+    width: 350px;
+    height: 500px;
+}
+
+.main-map-chairs > h1{
+    width: max-content;
+    font-size: 15px;
+}

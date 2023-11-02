@@ -1,0 +1,24 @@
+.bg-wrapper{
+    text-align: center;
+    color: black;
+    background-image: url("https://i.pinimg.com/originals/ba/6c/6f/ba6c6f1291b1643378878eb41fef94c7.jpg");
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-wrapper-h1{
+    margin: 0;
+    padding: 0;
+    font-size: 56px;
+    transition: 0.3s ease ;
+    color: whitesmoke;
+}
+
+.bg-wrapper-h1:hover{
+    scale: 1.1;
+    text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.226);
+    color: black;
+}

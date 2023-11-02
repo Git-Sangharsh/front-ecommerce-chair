@@ -1,0 +1,36 @@
+.navbar{
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+}
+
+.navbar-wrapper{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-nav{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.left-nav-img{
+    width: 70px;
+    border-radius: 30px;
+}
+
+.right-nav{
+    display: flex;
+}
+
+.right-nav > h1{
+    margin: 0px 20px;
+    font-size: 25px;
+    cursor: pointer;
+}

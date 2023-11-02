@@ -1,0 +1,25 @@
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.category-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.category-wrapper-cards{
+    text-align: center;
+}
+.category-wrapper-cards > img{
+    width: 500px;
+}
+
+.category-wrapper-cards > a{
+    text-decoration: none;
+    color: black;
+}
